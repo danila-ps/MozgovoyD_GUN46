@@ -105,6 +105,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4855880729764485531}
     m_Modifications:
+    - target: {fileID: 2811570237047604044, guid: 14adb0a57d2d6a24da78ded83e33a9ea, type: 3}
+      propertyPath: m_Mass
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6173058033187693651, guid: 14adb0a57d2d6a24da78ded83e33a9ea, type: 3}
       propertyPath: m_Name
       value: 16greycubes
