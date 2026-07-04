@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7229841775132300049}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 75redcubes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
