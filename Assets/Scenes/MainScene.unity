@@ -222,6 +222,7 @@ GameObject:
   - component: {fileID: 91185202}
   - component: {fileID: 91185204}
   - component: {fileID: 91185203}
+  - component: {fileID: 91185205}
   m_Layer: 5
   m_Name: Message
   m_TagString: Untagged
@@ -279,8 +280,8 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
+  m_enableVertexGradient: 1
+  m_colorMode: 1
   m_fontColorGradient:
     topLeft: {r: 1, g: 1, b: 1, a: 1}
     topRight: {r: 1, g: 1, b: 1, a: 1}
@@ -345,6 +346,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 91185201}
   m_CullTransparentMesh: 1
+--- !u!111 &91185205
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91185201}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: a15147ecb02468243be3b4f28e4764a4, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: a15147ecb02468243be3b4f28e4764a4, type: 2}
+  - {fileID: 7400000, guid: 257c4e1d06876b5449ee5fecef622d34, type: 2}
+  - {fileID: 7400000, guid: 312c0616e8e577a44a5a4452f2ca5be1, type: 2}
+  - {fileID: 7400000, guid: 8c0c45541af5b4145b477b3ba761778a, type: 2}
+  - {fileID: 7400000, guid: 4ae562bf89e364d4287a1301a56d6aec, type: 2}
+  - {fileID: 7400000, guid: 6a7034d0f0b67aa43928decff0d3bce7, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &93594167
 GameObject:
   m_ObjectHideFlags: 0
