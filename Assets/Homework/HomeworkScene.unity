@@ -948,7 +948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cfeea6c708c4d46a70d370982392bb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ballPrefab: {fileID: 8881866265378416155, guid: 920995d2a9d3a7d42ad7f6c5c45ffdb0, type: 3}
+  _ballPrefab: {fileID: 5694233653814595013, guid: 920995d2a9d3a7d42ad7f6c5c45ffdb0, type: 3}
   _startVelocity: 20
   _respawnDelay: 1
 --- !u!54 &1729871100
