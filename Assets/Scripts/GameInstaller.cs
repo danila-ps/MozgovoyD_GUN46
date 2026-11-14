@@ -1,11 +1,14 @@
 using Zenject;
 
-namespace Netologia.DI
+namespace Netologia.Gameplay
 {
-	public class GameInstaller : MonoInstaller
-	{
-		public override void InstallBindings()
-		{
-		}
-	}
+    public class GameInstaller : MonoInstaller
+    {
+        public override void InstallBindings()
+        {
+            var controls = new Controls();
+            Container.Bind<Controls>().FromInstance(controls).AsSingle();
+            Container.Bind<Controls.GameActions>().FromInstance(controls.Game).AsSingle();
+        }
+    }
 }
